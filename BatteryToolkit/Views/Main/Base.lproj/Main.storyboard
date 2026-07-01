@@ -15,49 +15,49 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Battery Toolkit" systemMenu="apple" autoenablesItems="NO" id="uQy-DD-JDr">
                                     <items>
-                                        <menuItem title="About Battery Toolkit" id="5kV-Vb-QxS">
+                                        <menuItem title="关于 Battery Toolkit" id="5kV-Vb-QxS">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
-                                        <menuItem title="Settings…" enabled="NO" keyEquivalent="," id="BOF-NM-1cW">
+                                        <menuItem title="设置…" enabled="NO" keyEquivalent="," id="BOF-NM-1cW">
                                             <connections>
                                                 <segue destination="Lf9-ud-Dh4" kind="show" id="xhQ-qx-DMZ"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Disable Background Activity" enabled="NO" id="oaJ-hp-PXw">
+                                        <menuItem title="禁用后台活动" enabled="NO" id="oaJ-hp-PXw">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="removeDaemonHandlerWithSender:" target="Voe-Tx-rLC" id="op0-U1-2YE"/>
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="wFC-TO-SCJ"/>
-                                        <menuItem title="Services" id="NMo-om-nkz">
+                                        <menuItem title="服务" id="NMo-om-nkz">
                                             <modifierMask key="keyEquivalentModifierMask"/>
-                                            <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
+                                            <menu key="submenu" title="服务" systemMenu="services" id="hz9-B4-Xy5"/>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
-                                        <menuItem title="Hide Battery Toolkit" keyEquivalent="h" id="Olw-nP-bQN">
+                                        <menuItem title="隐藏 Battery Toolkit" keyEquivalent="h" id="Olw-nP-bQN">
                                             <connections>
                                                 <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Hide Others" keyEquivalent="h" id="Vdr-fp-XzO">
+                                        <menuItem title="隐藏其他" keyEquivalent="h" id="Vdr-fp-XzO">
                                             <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
                                             <connections>
                                                 <action selector="hideOtherApplications:" target="Ady-hI-5gd" id="VT4-aY-XCT"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Show All" id="Kd2-mp-pUS">
+                                        <menuItem title="全部显示" id="Kd2-mp-pUS">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="unhideAllApplications:" target="Ady-hI-5gd" id="Dhg-Le-xox"/>
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                                        <menuItem title="Quit Battery Toolkit" keyEquivalent="q" id="4sb-4s-VLi">
+                                        <menuItem title="退出 Battery Toolkit" keyEquivalent="q" id="4sb-4s-VLi">
                                             <connections>
                                                 <action selector="quitHandlerWithSender:" target="Yoz-Et-jXW" id="XwH-9q-S0c"/>
                                             </connections>
@@ -65,11 +65,11 @@
                                     </items>
                                 </menu>
                             </menuItem>
-                            <menuItem title="File" id="usR-Tg-EZv">
+                            <menuItem title="文件" id="usR-Tg-EZv">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="File" id="Z4m-k5-YnW">
+                                <menu key="submenu" title="文件" id="Z4m-k5-YnW">
                                     <items>
-                                        <menuItem title="Close" keyEquivalent="w" id="4co-eu-OrS">
+                                        <menuItem title="关闭" keyEquivalent="w" id="4co-eu-OrS">
                                             <connections>
                                                 <action selector="performClose:" target="Ady-hI-5gd" id="Dy1-a8-ovF"/>
                                             </connections>
@@ -77,59 +77,59 @@
                                     </items>
                                 </menu>
                             </menuItem>
-                            <menuItem title="Edit" id="5QF-Oa-p0T">
+                            <menuItem title="编辑" id="5QF-Oa-p0T">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="Edit" id="W48-6f-4Dl">
+                                <menu key="submenu" title="编辑" id="W48-6f-4Dl">
                                     <items>
-                                        <menuItem title="Undo" keyEquivalent="z" id="dRJ-4n-Yzg">
+                                        <menuItem title="撤销" keyEquivalent="z" id="dRJ-4n-Yzg">
                                             <connections>
                                                 <action selector="undo:" target="Ady-hI-5gd" id="M6e-cu-g7V"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Redo" keyEquivalent="Z" id="6dh-zS-Vam">
+                                        <menuItem title="重做" keyEquivalent="Z" id="6dh-zS-Vam">
                                             <connections>
                                                 <action selector="redo:" target="Ady-hI-5gd" id="oIA-Rs-6OD"/>
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="WRV-NI-Exz"/>
-                                        <menuItem title="Cut" keyEquivalent="x" id="uRl-iY-unG">
+                                        <menuItem title="剪切" keyEquivalent="x" id="uRl-iY-unG">
                                             <connections>
                                                 <action selector="cut:" target="Ady-hI-5gd" id="YJe-68-I9s"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Copy" keyEquivalent="c" id="x3v-GG-iWU">
+                                        <menuItem title="复制" keyEquivalent="c" id="x3v-GG-iWU">
                                             <connections>
                                                 <action selector="copy:" target="Ady-hI-5gd" id="G1f-GL-Joy"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Paste" keyEquivalent="v" id="gVA-U4-sdL">
+                                        <menuItem title="粘贴" keyEquivalent="v" id="gVA-U4-sdL">
                                             <connections>
                                                 <action selector="paste:" target="Ady-hI-5gd" id="UvS-8e-Qdg"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Delete" id="pa3-QI-u2k">
+                                        <menuItem title="删除" id="pa3-QI-u2k">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="delete:" target="Ady-hI-5gd" id="0Mk-Ml-PaM"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Select All" keyEquivalent="a" id="Ruw-6m-B2m">
+                                        <menuItem title="全选" keyEquivalent="a" id="Ruw-6m-B2m">
                                             <connections>
                                                 <action selector="selectAll:" target="Ady-hI-5gd" id="VNm-Mi-diN"/>
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="uyl-h8-XO2"/>
-                                        <menuItem title="Speech" id="xrE-MZ-jX0">
+                                        <menuItem title="语音" id="xrE-MZ-jX0">
                                             <modifierMask key="keyEquivalentModifierMask"/>
-                                            <menu key="submenu" title="Speech" id="3rS-ZA-NoH">
+                                            <menu key="submenu" title="语音" id="3rS-ZA-NoH">
                                                 <items>
-                                                    <menuItem title="Start Speaking" id="Ynk-f8-cLZ">
+                                                    <menuItem title="开始朗读" id="Ynk-f8-cLZ">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                         <connections>
                                                             <action selector="startSpeaking:" target="Ady-hI-5gd" id="654-Ng-kyl"/>
                                                         </connections>
                                                     </menuItem>
-                                                    <menuItem title="Stop Speaking" id="Oyz-dy-DGm">
+                                                    <menuItem title="停止朗读" id="Oyz-dy-DGm">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                         <connections>
                                                             <action selector="stopSpeaking:" target="Ady-hI-5gd" id="dX8-6p-jy9"/>
@@ -141,96 +141,96 @@
                                     </items>
                                 </menu>
                             </menuItem>
-                            <menuItem title="Window" id="WKU-5I-F3D">
+                            <menuItem title="窗口" id="WKU-5I-F3D">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="Window" systemMenu="window" id="vc5-Ja-Aou"/>
+                                <menu key="submenu" title="窗口" systemMenu="window" id="vc5-Ja-Aou"/>
                             </menuItem>
-                            <menuItem title="Commands" hidden="YES" id="67P-gA-Pem">
+                            <menuItem title="命令" hidden="YES" id="67P-gA-Pem">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="Commands" autoenablesItems="NO" id="Y6Y-O7-JEX">
+                                <menu key="submenu" title="命令" autoenablesItems="NO" id="Y6Y-O7-JEX">
                                     <items>
-                                        <menuItem title="Unknown State" enabled="NO" id="IN2-5L-mDF">
+                                        <menuItem title="未知状态" enabled="NO" id="IN2-5L-mDF">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                         </menuItem>
-                                        <menuItem title="Background Acitivity Paused" hidden="YES" enabled="NO" id="Vgl-Kg-Sv3" userLabel="Background Activity Paused">
+                                        <menuItem title="后台活动已暂停" hidden="YES" enabled="NO" id="Vgl-Kg-Sv3" userLabel="Background Activity Paused">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                         </menuItem>
-                                        <menuItem title="Power Adapter: Enabled" hidden="YES" enabled="NO" id="zEi-td-Phh">
+                                        <menuItem title="电源适配器：已启用" hidden="YES" enabled="NO" id="zEi-td-Phh">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                         </menuItem>
-                                        <menuItem title="Power Adapter: Disabled" hidden="YES" enabled="NO" id="sMO-Ij-34k">
+                                        <menuItem title="电源适配器：已禁用" hidden="YES" enabled="NO" id="sMO-Ij-34k">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                         </menuItem>
-                                        <menuItem title="Charging to Limit" hidden="YES" enabled="NO" id="lbk-yR-YAv">
+                                        <menuItem title="充电至限制值" hidden="YES" enabled="NO" id="lbk-yR-YAv">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                         </menuItem>
-                                        <menuItem title="Charging to Full" hidden="YES" enabled="NO" id="lac-Zb-b2m">
+                                        <menuItem title="充电至满电" hidden="YES" enabled="NO" id="lac-Zb-b2m">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                         </menuItem>
-                                        <menuItem title="Charging (Unknown Mode)" hidden="YES" enabled="NO" id="4Kg-1R-KWJ">
+                                        <menuItem title="充电中（未知模式）" hidden="YES" enabled="NO" id="4Kg-1R-KWJ">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                         </menuItem>
-                                        <menuItem title="Charging On Hold" hidden="YES" enabled="NO" id="jSw-yh-dVi">
+                                        <menuItem title="充电已暂停" hidden="YES" enabled="NO" id="jSw-yh-dVi">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                         </menuItem>
-                                        <menuItem title="Requested Charging to Limit" hidden="YES" enabled="NO" id="gt7-Wq-hIQ">
+                                        <menuItem title="已请求充电至限制值" hidden="YES" enabled="NO" id="gt7-Wq-hIQ">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                         </menuItem>
-                                        <menuItem title="Requested Charging to Full" hidden="YES" enabled="NO" id="ok6-b9-12l">
+                                        <menuItem title="已请求充电至满电" hidden="YES" enabled="NO" id="ok6-b9-12l">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                         </menuItem>
-                                        <menuItem title="Charging On Hold (Unknown Mode)" hidden="YES" enabled="NO" id="ptj-AT-ybP">
+                                        <menuItem title="充电已暂停（未知模式）" hidden="YES" enabled="NO" id="ptj-AT-ybP">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="gI3-dm-1ia"/>
-                                        <menuItem title="Disable Power Adapter" hidden="YES" keyEquivalent="p" id="wQc-iH-a0U">
+                                        <menuItem title="禁用电源适配器" hidden="YES" keyEquivalent="p" id="wQc-iH-a0U">
                                             <connections>
                                                 <action selector="disablePowerAdapterHandlerWithSender:" target="Q4N-wh-Pcn" id="fvm-7S-EXd"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Enable Power Adapter" hidden="YES" keyEquivalent="p" id="v10-VJ-vXg">
+                                        <menuItem title="启用电源适配器" hidden="YES" keyEquivalent="p" id="v10-VJ-vXg">
                                             <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
                                             <connections>
                                                 <action selector="enablePowerAdapterHandlerWithSender:" target="Q4N-wh-Pcn" id="MFm-8u-wJh"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Charge to Full Now" hidden="YES" keyEquivalent="f" id="Aqi-xb-CLH">
+                                        <menuItem title="立即充满电" hidden="YES" keyEquivalent="f" id="Aqi-xb-CLH">
                                             <connections>
                                                 <action selector="chargeToFullHandlerWithSender:" target="Q4N-wh-Pcn" id="GIW-CD-LNk"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Charge to Limit Now" hidden="YES" keyEquivalent="l" id="E3R-Fa-W18">
+                                        <menuItem title="立即充电至限制值" hidden="YES" keyEquivalent="l" id="E3R-Fa-W18">
                                             <connections>
                                                 <action selector="chargeToLimitHandlerWithSender:" target="Q4N-wh-Pcn" id="Wkk-3p-fZa"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Disable Charging" hidden="YES" keyEquivalent="d" id="LEy-Sb-Iyb">
+                                        <menuItem title="禁用充电" hidden="YES" keyEquivalent="d" id="LEy-Sb-Iyb">
                                             <connections>
                                                 <action selector="disableChargingHandlerWithSender:" target="Q4N-wh-Pcn" id="av8-as-Erb"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Request Charging to Full" hidden="YES" keyEquivalent="f" id="u4J-Rf-19m">
+                                        <menuItem title="请求充满电" hidden="YES" keyEquivalent="f" id="u4J-Rf-19m">
                                             <connections>
                                                 <action selector="chargeToFullHandlerWithSender:" target="Q4N-wh-Pcn" id="GCg-U0-wy3"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Request Charging to Limit" hidden="YES" keyEquivalent="l" id="xbN-4R-0nt">
+                                        <menuItem title="请求充电至限制值" hidden="YES" keyEquivalent="l" id="xbN-4R-0nt">
                                             <connections>
                                                 <action selector="chargeToLimitHandlerWithSender:" target="Q4N-wh-Pcn" id="Baz-8K-3Vk"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Cancel Charging Request" hidden="YES" keyEquivalent="d" id="dpS-hD-AaI">
+                                        <menuItem title="取消充电请求" hidden="YES" keyEquivalent="d" id="dpS-hD-AaI">
                                             <connections>
                                                 <action selector="disableChargingHandlerWithSender:" target="Q4N-wh-Pcn" id="Ov9-zG-UwO"/>
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="fJj-9A-Bqz"/>
-                                        <menuItem title="Pause Background Activity" hidden="YES" keyEquivalent="b" id="SF3-Mb-O2s">
+                                        <menuItem title="暂停后台活动" hidden="YES" keyEquivalent="b" id="SF3-Mb-O2s">
                                             <connections>
                                                 <action selector="pauseActivityHandlerWithSender:" target="Q4N-wh-Pcn" id="wQx-4l-2u4"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Resume Background Activity" hidden="YES" keyEquivalent="b" id="4ER-ok-uTQ">
+                                        <menuItem title="恢复后台活动" hidden="YES" keyEquivalent="b" id="4ER-ok-uTQ">
                                             <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
                                             <connections>
                                                 <action selector="resumeActivityHandlerWithSender:" target="Q4N-wh-Pcn" id="oc9-qg-hF7"/>
@@ -242,7 +242,7 @@
                                     </connections>
                                 </menu>
                             </menuItem>
-                            <menuItem title="Help" id="wpr-3q-Mcd">
+                            <menuItem title="帮助" id="wpr-3q-Mcd">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                             </menuItem>
                         </items>
@@ -313,100 +313,100 @@
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
                 <menu id="95L-Hg-MpQ" userLabel="MenuBarMenu">
                     <items>
-                        <menuItem title="Unknown State" enabled="NO" id="ASg-q2-OT9">
+                        <menuItem title="未知状态" enabled="NO" id="ASg-q2-OT9">
                             <modifierMask key="keyEquivalentModifierMask"/>
                         </menuItem>
-                        <menuItem title="Background Acitivity Paused" hidden="YES" enabled="NO" id="oBQ-be-xxD" userLabel="Background Activity Paused">
+                        <menuItem title="后台活动已暂停" hidden="YES" enabled="NO" id="oBQ-be-xxD" userLabel="Background Activity Paused">
                             <modifierMask key="keyEquivalentModifierMask"/>
                         </menuItem>
-                        <menuItem title="Power Adapter: Enabled" hidden="YES" enabled="NO" id="SUV-eg-AcA">
+                        <menuItem title="电源适配器：已启用" hidden="YES" enabled="NO" id="SUV-eg-AcA">
                             <modifierMask key="keyEquivalentModifierMask"/>
                         </menuItem>
-                        <menuItem title="Power Adapter: Disabled" hidden="YES" enabled="NO" id="PTV-ys-cbR">
+                        <menuItem title="电源适配器：已禁用" hidden="YES" enabled="NO" id="PTV-ys-cbR">
                             <modifierMask key="keyEquivalentModifierMask"/>
                         </menuItem>
-                        <menuItem title="Charging to Limit" hidden="YES" enabled="NO" id="nWm-0d-xw6">
+                        <menuItem title="充电至限制值" hidden="YES" enabled="NO" id="nWm-0d-xw6">
                             <modifierMask key="keyEquivalentModifierMask"/>
                         </menuItem>
-                        <menuItem title="Charging to Full" hidden="YES" enabled="NO" id="F8E-0n-LBJ">
+                        <menuItem title="充电至满电" hidden="YES" enabled="NO" id="F8E-0n-LBJ">
                             <modifierMask key="keyEquivalentModifierMask"/>
                         </menuItem>
-                        <menuItem title="Charging (Unknown Mode)" hidden="YES" enabled="NO" id="tXk-Dr-ZCO">
+                        <menuItem title="充电中（未知模式）" hidden="YES" enabled="NO" id="tXk-Dr-ZCO">
                             <modifierMask key="keyEquivalentModifierMask"/>
                         </menuItem>
-                        <menuItem title="Charging On Hold" hidden="YES" enabled="NO" id="QRX-If-BNP">
+                        <menuItem title="充电已暂停" hidden="YES" enabled="NO" id="QRX-If-BNP">
                             <modifierMask key="keyEquivalentModifierMask"/>
                         </menuItem>
-                        <menuItem title="Requested Charging to Limit" hidden="YES" enabled="NO" id="dq4-4h-B2m">
+                        <menuItem title="已请求充电至限制值" hidden="YES" enabled="NO" id="dq4-4h-B2m">
                             <modifierMask key="keyEquivalentModifierMask"/>
                         </menuItem>
-                        <menuItem title="Requested Charging to Full" hidden="YES" enabled="NO" id="A7t-cy-HPp">
+                        <menuItem title="已请求充电至满电" hidden="YES" enabled="NO" id="A7t-cy-HPp">
                             <modifierMask key="keyEquivalentModifierMask"/>
                         </menuItem>
-                        <menuItem title="Charging On Hold (Unknown Mode)" hidden="YES" enabled="NO" id="K5N-g3-QcY">
+                        <menuItem title="充电已暂停（未知模式）" hidden="YES" enabled="NO" id="K5N-g3-QcY">
                             <modifierMask key="keyEquivalentModifierMask"/>
                         </menuItem>
                         <menuItem isSeparatorItem="YES" id="VJd-te-iRz"/>
-                        <menuItem title="Disable Power Adapter" hidden="YES" keyEquivalent="p" id="ter-ZE-C7E">
+                        <menuItem title="禁用电源适配器" hidden="YES" keyEquivalent="p" id="ter-ZE-C7E">
                             <connections>
                                 <action selector="disablePowerAdapterHandlerWithSender:" target="Yoz-Et-jXW" id="dbn-vT-If5"/>
                             </connections>
                         </menuItem>
-                        <menuItem title="Enable Power Adapter" hidden="YES" keyEquivalent="p" id="aEW-fU-9yN">
+                        <menuItem title="启用电源适配器" hidden="YES" keyEquivalent="p" id="aEW-fU-9yN">
                             <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
                             <connections>
                                 <action selector="enablePowerAdapterHandlerWithSender:" target="Yoz-Et-jXW" id="PCx-sG-EOc"/>
                             </connections>
                         </menuItem>
-                        <menuItem title="Charge to Full Now" hidden="YES" keyEquivalent="f" id="llC-Rh-DUh">
+                        <menuItem title="立即充满电" hidden="YES" keyEquivalent="f" id="llC-Rh-DUh">
                             <connections>
                                 <action selector="chargeToFullHandlerWithSender:" target="Yoz-Et-jXW" id="i2a-gy-Hp6"/>
                             </connections>
                         </menuItem>
-                        <menuItem title="Charge to Limit Now" hidden="YES" keyEquivalent="l" id="TNZ-j8-gVs">
+                        <menuItem title="立即充电至限制值" hidden="YES" keyEquivalent="l" id="TNZ-j8-gVs">
                             <connections>
                                 <action selector="chargeToLimitHandlerWithSender:" target="Yoz-Et-jXW" id="ySg-yc-sEK"/>
                             </connections>
                         </menuItem>
-                        <menuItem title="Disable Charging" hidden="YES" keyEquivalent="d" id="GjO-6u-KWc">
+                        <menuItem title="禁用充电" hidden="YES" keyEquivalent="d" id="GjO-6u-KWc">
                             <connections>
                                 <action selector="disableChargingHandlerWithSender:" target="Yoz-Et-jXW" id="CxW-Sy-3yW"/>
                             </connections>
                         </menuItem>
-                        <menuItem title="Request Charging to Full" hidden="YES" keyEquivalent="f" id="FYa-Xe-gc8">
+                        <menuItem title="请求充满电" hidden="YES" keyEquivalent="f" id="FYa-Xe-gc8">
                             <connections>
                                 <action selector="chargeToFullHandlerWithSender:" target="Yoz-Et-jXW" id="bj7-c6-lty"/>
                             </connections>
                         </menuItem>
-                        <menuItem title="Request Charging to Limit" hidden="YES" keyEquivalent="l" id="07e-WI-TcK">
+                        <menuItem title="请求充电至限制值" hidden="YES" keyEquivalent="l" id="07e-WI-TcK">
                             <connections>
                                 <action selector="chargeToLimitHandlerWithSender:" target="Yoz-Et-jXW" id="kEt-T6-WQS"/>
                             </connections>
                         </menuItem>
-                        <menuItem title="Cancel Charging Request" hidden="YES" keyEquivalent="d" id="ULK-Wm-406">
+                        <menuItem title="取消充电请求" hidden="YES" keyEquivalent="d" id="ULK-Wm-406">
                             <connections>
                                 <action selector="disableChargingHandlerWithSender:" target="Yoz-Et-jXW" id="LUb-fi-hvv"/>
                             </connections>
                         </menuItem>
                         <menuItem isSeparatorItem="YES" id="sGg-wU-dOW"/>
-                        <menuItem title="Pause Background Activity" hidden="YES" keyEquivalent="b" id="R8X-od-FcL">
+                        <menuItem title="暂停后台活动" hidden="YES" keyEquivalent="b" id="R8X-od-FcL">
                             <connections>
                                 <action selector="pauseActivityHandlerWithSender:" target="Yoz-Et-jXW" id="zzP-KW-Rg5"/>
                             </connections>
                         </menuItem>
-                        <menuItem title="Resume Background Activity" hidden="YES" keyEquivalent="b" id="oa7-84-urH">
+                        <menuItem title="恢复后台活动" hidden="YES" keyEquivalent="b" id="oa7-84-urH">
                             <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
                             <connections>
                                 <action selector="resumeActivityHandlerWithSender:" target="Yoz-Et-jXW" id="nqU-EF-SJw"/>
                             </connections>
                         </menuItem>
-                        <menuItem title="Settings…" keyEquivalent="," id="78l-zk-UHb" customClass="BTSettingsMenuItem" customModule="Battery_Toolkit" customModuleProvider="target">
+                        <menuItem title="设置…" keyEquivalent="," id="78l-zk-UHb" customClass="BTSettingsMenuItem" customModule="Battery_Toolkit" customModuleProvider="target">
                             <connections>
                                 <segue destination="Lf9-ud-Dh4" kind="show" id="UU8-oN-xdh"/>
                             </connections>
                         </menuItem>
                         <menuItem isSeparatorItem="YES" id="9fM-fx-Sxj"/>
-                        <menuItem title="Quit Battery Toolkit" keyEquivalent="q" id="Smu-3d-BCn">
+                        <menuItem title="退出 Battery Toolkit" keyEquivalent="q" id="Smu-3d-BCn">
                             <connections>
                                 <action selector="quitHandlerWithSender:" target="Yoz-Et-jXW" id="WbX-gg-kmB"/>
                             </connections>

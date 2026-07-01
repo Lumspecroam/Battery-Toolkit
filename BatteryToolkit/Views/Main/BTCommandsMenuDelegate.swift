@@ -187,11 +187,11 @@ internal final class BTCommandsMenuDelegate: NSObject, NSMenuDelegate {
             let chargeBelowFull = progress <= BTStateInfo.ChargingProgress
                 .belowFull.rawValue
 
-            self.infoChargingToLimitItem.title = "Charging to \(maxCharge) %"
-            self.infoRequestedChargingToLimitItem.title = "Requested Charging to \(maxCharge) %"
+            self.infoChargingToLimitItem.title = "充电至 \(maxCharge) %"
+            self.infoRequestedChargingToLimitItem.title = "已请求充电至 \(maxCharge) %"
 
-            self.chargeToLimitNowItem.title = "Charge to \(maxCharge) % Now"
-            self.requestChargingToLimitItem.title = "Request Charging to \(maxCharge) % Now"
+            self.chargeToLimitNowItem.title = "立即充电至 \(maxCharge) %"
+            self.requestChargingToLimitItem.title = "请求充电至 \(maxCharge) %"
 
             if connected {
                 self.requestChargingToFullItem.isHidden = true

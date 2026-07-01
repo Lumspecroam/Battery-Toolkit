@@ -23,13 +23,13 @@
                         </view>
                         <toolbar key="toolbar" implicitIdentifier="139CDA02-1562-4BA9-8D5C-8C3CA70163F7" autosavesConfiguration="NO" allowsUserCustomization="NO" showsBaselineSeparator="NO" displayMode="iconAndLabel" sizeMode="regular" id="w28-jh-n04">
                             <allowedToolbarItems>
-                                <toolbarItem implicitItemIdentifier="77906F38-36A2-4C77-8E44-8C229DD720C5" explicitItemIdentifier="user" label="User" paletteLabel="User" tag="-1" sizingBehavior="auto" selectable="YES" id="iVB-Bu-n4M" userLabel="User">
+                                <toolbarItem implicitItemIdentifier="77906F38-36A2-4C77-8E44-8C229DD720C5" explicitItemIdentifier="user" label="用户" paletteLabel="用户" tag="-1" sizingBehavior="auto" selectable="YES" id="iVB-Bu-n4M" userLabel="User">
                                     <imageReference key="image" image="person.crop.circle" catalog="system" symbolScale="default"/>
                                     <connections>
                                         <action selector="userAction:" target="Svp-Rd-cF3" id="0NC-hc-TZn"/>
                                     </connections>
                                 </toolbarItem>
-                                <toolbarItem implicitItemIdentifier="F161A659-3DEF-459F-B2F6-302E483C07F5" explicitItemIdentifier="power" label="Power" paletteLabel="Power" tag="-1" sizingBehavior="auto" selectable="YES" id="ZWd-cD-Dlp">
+                                <toolbarItem implicitItemIdentifier="F161A659-3DEF-459F-B2F6-302E483C07F5" explicitItemIdentifier="power" label="电源" paletteLabel="电源" tag="-1" sizingBehavior="auto" selectable="YES" id="ZWd-cD-Dlp">
                                     <imageReference key="image" image="bolt.circle" catalog="system" symbolScale="default"/>
                                     <connections>
                                         <action selector="powerAction:" target="Svp-Rd-cF3" id="nfZ-sf-9mx"/>
@@ -65,7 +65,7 @@
                                 <rect key="frame" x="0.0" y="69" width="495" height="284"/>
                                 <font key="font" metaFont="system"/>
                                 <tabViewItems>
-                                    <tabViewItem label="Power" identifier="" id="IMi-pw-cwy" userLabel="Power">
+                                    <tabViewItem label="电源" identifier="" id="IMi-pw-cwy" userLabel="Power">
                                         <view key="view" id="Blc-dd-9Qv">
                                             <rect key="frame" x="0.0" y="0.0" width="495" height="284"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -103,7 +103,7 @@
                                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="16" id="EuL-L8-25Q"/>
                                                         <constraint firstAttribute="height" constant="16" id="gnV-QU-pzo"/>
                                                     </constraints>
-                                                    <textFieldCell key="cell" lineBreakMode="clipping" title="Turn battery charging off above:" id="Wuy-t5-ID5">
+                                                    <textFieldCell key="cell" lineBreakMode="clipping" title="电池充电关闭上限：" id="Wuy-t5-ID5">
                                                         <font key="font" metaFont="system"/>
                                                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -185,7 +185,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="16" id="CJk-Zk-wNS"/>
                                                     </constraints>
-                                                    <textFieldCell key="cell" lineBreakMode="clipping" title="Turn battery charging on below:" id="YrV-xe-P4m">
+                                                    <textFieldCell key="cell" lineBreakMode="clipping" title="电池充电开启下限：" id="YrV-xe-P4m">
                                                         <font key="font" metaFont="system"/>
                                                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -199,7 +199,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="411" id="4kI-hg-lpd"/>
                                                     </constraints>
-                                                    <textFieldCell key="cell" lineBreakMode="clipping" title="Prevent your Mac from sleeping when the power adapter is disabled" id="fIe-Jy-1ot">
+                                                    <textFieldCell key="cell" lineBreakMode="clipping" title="电源适配器禁用时阻止 Mac 睡眠" id="fIe-Jy-1ot">
                                                         <font key="font" metaFont="system"/>
                                                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -212,7 +212,7 @@
                                                     <rect key="frame" x="18" y="69" width="415" height="28"/>
                                                     <textFieldCell key="cell" controlSize="small" selectable="YES" id="BOx-qm-k90">
                                                         <font key="font" metaFont="smallSystem"/>
-                                                        <string key="title">When the lid is closed, your Mac may automatically sleep with the power adapter disabled, even if an external display is connected and turned on.</string>
+                                                        <string key="title">合上盖子时，即使连接并开启了外接显示器，Mac 也可能在禁用电源适配器后自动睡眠。</string>
                                                         <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                     </textFieldCell>
@@ -222,7 +222,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="411" id="VFA-XY-kKI"/>
                                                     </constraints>
-                                                    <textFieldCell key="cell" lineBreakMode="clipping" title="Sync MagSafe indicator light" id="47S-lH-kMQ">
+                                                    <textFieldCell key="cell" lineBreakMode="clipping" title="同步 MagSafe 指示灯" id="47S-lH-kMQ">
                                                         <font key="font" metaFont="system"/>
                                                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -232,7 +232,7 @@
                                                     <rect key="frame" x="18" y="0.0" width="415" height="42"/>
                                                     <textFieldCell key="cell" controlSize="small" selectable="YES" id="3Kk-Vy-Cgc">
                                                         <font key="font" metaFont="smallSystem"/>
-                                                        <string key="title">Sync the power state of your Mac to the MagSafe indicator light. It flashes amber if charging, glows amber if charging is on hold, glows green if fully charged, and it is off if the power adapter is disabled.</string>
+                                                        <string key="title">将 Mac 的电源状态同步到 MagSafe 指示灯。充电时琥珀色闪烁，暂停充电时琥珀色常亮，充满电时绿色常亮，禁用电源适配器时熄灭。</string>
                                                         <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                     </textFieldCell>
@@ -244,7 +244,7 @@
                                                     <rect key="frame" x="18" y="132" width="459" height="28"/>
                                                     <textFieldCell key="cell" controlSize="small" id="1HE-SM-FyJ">
                                                         <font key="font" metaFont="smallSystem"/>
-                                                        <string key="title">Your Mac will be prevented from sleeping while charging to monitor its battery level. Sleep is enabled again once your Mac stops charging for any reason.</string>
+                                                        <string key="title">充电期间将阻止 Mac 睡眠以监控电池电量。Mac 因任何原因停止充电后将重新启用睡眠。</string>
                                                         <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                     </textFieldCell>
@@ -308,14 +308,14 @@
                                             </constraints>
                                         </view>
                                     </tabViewItem>
-                                    <tabViewItem label="User" identifier="" id="r6x-U7-0zu" userLabel="User">
+                                    <tabViewItem label="用户" identifier="" id="r6x-U7-0zu" userLabel="User">
                                         <view key="view" id="j3z-8d-YbE">
                                             <rect key="frame" x="0.0" y="0.0" width="495" height="107"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="WLE-5m-DuI" userLabel="Autostart Label">
                                                     <rect key="frame" x="18" y="71" width="415" height="16"/>
-                                                    <textFieldCell key="cell" lineBreakMode="clipping" title="Open Battery Toolkit automatically when you log in to your Mac" id="23Z-ec-mgU">
+                                                    <textFieldCell key="cell" lineBreakMode="clipping" title="登录 Mac 时自动打开 Battery Toolkit" id="23Z-ec-mgU">
                                                         <font key="font" usesAppearanceFont="YES"/>
                                                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -325,7 +325,7 @@
                                                     <rect key="frame" x="18" y="20" width="415" height="48"/>
                                                     <textFieldCell key="cell" selectable="YES" id="5XS-zv-zfd">
                                                         <font key="font" metaFont="system"/>
-                                                        <string key="title">Display a menu bar extra to easily control the power state of your Mac. The background activity is independent from the application and is unaffected by this setting.</string>
+                                                        <string key="title">显示菜单栏图标以便轻松控制 Mac 的电源状态。后台活动独立于应用程序，不受此设置影响。</string>
                                                         <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                     </textFieldCell>
@@ -353,7 +353,7 @@
                             </tabView>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="tMo-Nt-MJE">
                                 <rect key="frame" x="406" y="13" width="76" height="32"/>
-                                <buttonCell key="cell" type="push" title="OK" bezelStyle="rounded" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" inset="2" id="cnq-Zd-qMS">
+                                <buttonCell key="cell" type="push" title="确定" bezelStyle="rounded" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" inset="2" id="cnq-Zd-qMS">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -367,7 +367,7 @@
                             </button>
                             <button horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1wm-Dj-FSo">
                                 <rect key="frame" x="332" y="13" width="76" height="32"/>
-                                <buttonCell key="cell" type="push" title="Cancel" bezelStyle="rounded" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" inset="2" id="dqT-oI-86h">
+                                <buttonCell key="cell" type="push" title="取消" bezelStyle="rounded" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" inset="2" id="dqT-oI-86h">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                     <string key="keyEquivalent" base64-UTF8="YES">
